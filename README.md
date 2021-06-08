@@ -1,2 +1,8 @@
-# Venom
-Promo Venom 2
+# Venom - Учебный проект 
+## Проект выполнил Евсултанов М.М.
+
+В проекте используются - 
+- Html
+- Css
+- Javascript
+- Normalize
