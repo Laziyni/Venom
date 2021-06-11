@@ -13,10 +13,18 @@
 <body class="blood">
     <div class="container">
         <header class="header">
-            <a href="" class="logo-link">
+            <a href="/" class="logo-link">
                 <img width="46" height="71" src="img/i-removebg-preview 1.png" alt="log0: venom" class="logo-img">
             </a>
             <nav class="nav">
+                <button class="menu-button">
+                    <span class="menu-button-text">Меню</span>
+                    <img src="img/menu.svg" alt="icon: burger menu" class="menu-button-icon">
+                </button>
+                <button class="menu-close">
+                    <span class="menu-close-text">закрыть</span>
+                    <img src="img/arrow.svg" alst="icon arrow right" class="menu-close-icon">
+                </button>
                 <ul class="nav-menu">
                     <li class="nav-menu-item">
                         <a href="about.html" class="nav-menu-link">о фильме</a>
@@ -40,10 +48,10 @@
                 <p class="film-description">В настырном журналисте по-прежнему живет симбиот. Том Харди в образе обаятельного суперзлодея из комиксов Marvel.</p>
             </div>
             <div class="button-group">
-                <button class="button button-primary">
+                <a data-fancybox href="https://www.youtube.com/watch?v=Othd8W8o3t0&t=13s" class="button button-primary">
                     <img width="15" src="img/play.svg" alt="icon: play" class="button-icon">
                     <span class="button-text">смотреть трейлер</span>
-                </button>
+                </a>
                 <a href="trailer.html" class="button button-link">
                     <img width="15" src="img/ticket.svg" alt="icon: ticket" class="button-icon">
                     <span class="button-text">билеты на премьеру</span>
@@ -54,5 +62,9 @@
         <!-- /.hero -->    
     </div>
     <img src="img/venom.png" alt="photo: venom" class="venom">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
